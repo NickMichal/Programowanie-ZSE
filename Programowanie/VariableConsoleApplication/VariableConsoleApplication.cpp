@@ -29,13 +29,24 @@ int main()
 //Program obliczający średnią arytmetyczną dwóch liczb
 void task2()
 {
+    int firstnumber, secondNumber;
 
+    std::cout << "Podaj pierwszą liczbe:\n";
+    std::cin >> firstnumber;
 
+    std::cout << "Podaj drugą liczbe:\n";
+    std::cin >> secondNumber;
+
+    int avg;
+
+    avg = (firstnumber + secondNumber) / 2;
+
+    std::cout << "wynik średniej:  " << avg << "\n";
 }
 
 
 int main()
-{
+{ 
     task2();
 }
 /* 

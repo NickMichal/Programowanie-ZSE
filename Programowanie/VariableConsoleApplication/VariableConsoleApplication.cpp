@@ -40,10 +40,27 @@ void task2()
 }
 
 
+//Program obliczający pole prostokąta
+void task3()
+{
+
+}
+
 int main()
 { 
     task2();
 }
+
+
+
+
+
+
+
+
+
+
+
 /* 
 
  Zmienna - pewien obszar w pamięci operacyjnej, w której można 

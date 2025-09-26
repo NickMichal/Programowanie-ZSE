@@ -21,11 +21,6 @@ void task1()
     std::cout << " podałeś " << numberFromUser << "\n";
 }
 
-int main()
-{
-    task1();
-}
-
 //Program obliczający średnią arytmetyczną dwóch liczb
 void task2()
 {

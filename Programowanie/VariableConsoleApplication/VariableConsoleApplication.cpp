@@ -43,16 +43,29 @@ void task2()
 //Program obliczający pole prostokąta
 void task3()
 {
+    int sideA, sideB;
+    
+    std::cout << "podaj długość first side:\n";
+    std::cin >> sideA;
 
+    std::cout << "podaj długość secound side:\n";
+    std::cin >> sideB;
+
+    int area;
+
+    area = sideA*sideB;
+
+    std::cout << "wynik " << area << "\n";
 }
+
+
+
 
 int main()
-{ 
-    task2();
+{
+   
+    task3();
 }
-
-
-
 
 
 

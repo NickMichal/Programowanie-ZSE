@@ -134,7 +134,7 @@ void task7()
     
     float area;
 
-    area = b * h ^2;
+    area = b * h*2;
       
     std::cout << "wynik" << area << "\n";
 }

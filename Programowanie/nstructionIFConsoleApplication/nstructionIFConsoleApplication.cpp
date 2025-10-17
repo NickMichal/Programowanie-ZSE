@@ -1,4 +1,5 @@
-﻿
+﻿//	instructionIFConsoleApplication.cpp : This file contains the 'main' function.Program execution begins and ends there.
+//
 
 
 
@@ -54,13 +55,23 @@
 			  std::cout << "Podana liczba jest nieparzysta\n";
 	}
 	 	 
+	//Napisz program, który wyświetli informacje czy liczba jest z zakresu <1 ; 10).
+	void task3()
+	{
+
+		int number;
+		std::cout << "Podaj liczbę całkowitą:\n";
+		std::cin >> number;
+
+	}
+
 	int main()		 		 
 	{
 		
 
 		setlocale(LC_CTYPE, "polish");
 
-		task1();
+		task3();
 	}
 
 

@@ -43,12 +43,11 @@
 		  if (remiderOfDivisoin == 0)
 		  std::cout << "Podana liczba jest parzysta\n";
 
-		  if (remiderOfDivisoin != 0)	// == 1
+		  if (remiderOfDivisoin != 0) // == 1
 		  std::cout << "Podana liczba jest nieparzysta\n";
 
 		//------------------------------------------------------------
-
-
+		  
 		  if (remiderOfDivisoin == 0)
 			  std::cout << "Podana liczba jest parzysta\n";
 		  else
@@ -71,7 +70,7 @@
 
 		setlocale(LC_CTYPE, "polish");
 
-		task2();
+		task3();
 	}
 
 

@@ -71,7 +71,7 @@
 
 		setlocale(LC_CTYPE, "polish");
 
-		task3();
+		task2();
 	}
 
 

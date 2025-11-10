@@ -29,7 +29,7 @@ a && b || c && d
 */
 
 //*Napisz program, który wyświetli informacje czy liczba jest dodatnia czy nie.
-void task5()
+void task1()
 {
 	int number;
 	std::cout << "Podaj liczbę całkowitą:\n";
@@ -48,7 +48,7 @@ void task5()
 }
 
 //*Napisz program, który wyświetli informacje czy liczba jest parzysta czy nieparzysta.
-void task6()
+void task2()
 {
 	int number;
 	std::cout << "Podaj liczbę całkowitą:\n";
@@ -72,7 +72,7 @@ void task6()
 
 //*Napisz program, który wyświetli informacje czy liczba jest z zakresu <1 ; 10).
 
-void task7()
+void task3()
 {
 	int number;
 	std::cout << "Podaj liczbę całkowitą:\n";
@@ -120,7 +120,7 @@ void task7()
 }
 
 //*Napisz program, który wykona dzielenie dwóch liczb całkowitych i sprawdzi, czy są one równe. Wyświetl odpowiedni komunikat.
-void task8()
+void task4()
 {
 	int dividend, divisor;
 	std::cout << "Podaj dzielnik:\n";
@@ -138,22 +138,30 @@ void task8()
 }
 
 //*Napisz program, który poprosi użytkownika o podanie roku i sprawdzi, czy jest to rok przestępny.Wyświetl odpowiedni komunikat.
-void task9()
+void task5()
 {
 
 	int year;
 
-	std::cout << "Podaj year: ";
+	std::cout << "Podaj year:";
 	std::cin >> year;
 
-	std::cout << "podaj liczbę całkowitą:\n";
+	if (year >= 1)
+	
+		if (year < 2)
+			std::cout << "Rok jest Prawidłowy\n";
+
+		else
+
+			std::cout << "Rok nie jest Prawidłowy\n";
+
+	std::cout << "Koniec programu\n";
 }
 
-
+int main()
 {
-	int main();
-
+	
 	setlocale(LC_CTYPE, "polish");
 
-	task9();
+	task5();
 }

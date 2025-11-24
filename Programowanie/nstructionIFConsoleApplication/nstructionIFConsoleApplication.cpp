@@ -157,10 +157,112 @@ void task5()
 
 }
 
+
+//Napisz program, który wyświetli największą liczbę ze zbioru trójelementowego.
+void task6()
+{
+	int firstNumber, secondNumber, thirdNumber;
+	std::cout << "Podaj liczbę\n";
+	std::cin >> firstNumber;
+	std::cout << "Podaj liczbę\n";
+	std::cin >> secondNumber;
+	std::cout << "Podaj liczbę\n";
+	std::cin >> thirdNumber;
+
+	int max;
+
+	if (thirdNumber > secondNumber && thirdNumber > firstNumber)
+		max = thirdNumber;
+	else if (secondNumber > firstNumber)
+		max = secondNumber;
+	else
+		max = firstNumber;
+
+	std::cout << "Największa wartość to: " << max << "\n";
+}
+
+//Napisz program, który wyświetli największą liczbę ze zbioru czteroelementowego.
+void task7()
+{
+	int firstNumber, secondNumber, thirdNumber, fourthNumber;
+	std::cout << "Podaj liczbę\n";
+	std::cin >> firstNumber;
+	std::cout << "Podaj liczbę\n";
+	std::cin >> secondNumber;
+	std::cout << "Podaj liczbę\n";
+	std::cin >> thirdNumber;
+	std::cout << "Podaj liczbę\n";
+	std::cin >> fourthNumber;
+
+	int max;
+
+	if (fourthNumber > thirdNumber
+		&& fourthNumber > secondNumber
+		&& fourthNumber > firstNumber)
+		max = fourthNumber;
+	else if (thirdNumber > secondNumber
+		&& thirdNumber > firstNumber)
+		max = thirdNumber;
+	else if (secondNumber > firstNumber)
+		max = secondNumber;
+	else
+		max = firstNumber;
+
+	std::cout << "Największa wartość to: " << max << "\n";
+}
+
+/*
+Napisz program, który poprosi użytkownika o podanie masy ciała (w kilogramach) i wzrostu (w metrach).
+Na  podstawie tych danych oblicz wskaźnik BMI (Body Mass Index) i wyświetl odpowiedni komunikat informujący o stanie zdrowia.
+poniżej 16 - wygłodzenie
+16 - 16.99 - wychudzenie
+17 - 18.49 - niedowagę
+18.5 - 24.99 - wagę prawidłową
+25.0 - 29.9 - nadwagę
+30.0 - 34.99 - I stopień otyłości
+35.0 - 39.99 - II stopień otyłości
+powyżej 40.0 - otyłość skrajną
+
+Wzór:
+
+BMI = masa/wysokość^2
+
+*. Napisz program, który poprosi użytkownika o podanie długości trzech odcinków i sprawdzi, czy można zbudować z nich trójkąt. Wyświetl odpowiedni komunikat.
+
+*/
+
+void task8()
+{
+
+	float masa, wysokość;
+	std::cout << "Podaj masę\n";
+	std::cin >> masa;
+	std::cout << "Podaj wzrost\n";
+	std::cin >> wysokość;
+	std::cout << "masa\wysokość ^ 2";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 int main()
 {
 	
 	setlocale(LC_CTYPE, "polish");
 
-	task5();
+	task8();
 }

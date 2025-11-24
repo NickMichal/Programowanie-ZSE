@@ -155,7 +155,6 @@ void task5()
 
 			std::cout << "Rok nie jest Prawidłowy\n";
 
-	std::cout << "Koniec programu\n";
 }
 
 int main()

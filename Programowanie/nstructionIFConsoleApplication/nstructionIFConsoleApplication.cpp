@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#define if 5
 
 /*
 
@@ -25,8 +26,8 @@ T	F		  F			   T		 F
 T	T	      T			   T		 F
 
 a && b || c && d
-
 */
+
 
 //*Napisz program, który wyświetli informacje czy liczba jest dodatnia czy nie.
 void task1()
@@ -184,6 +185,7 @@ void task6()
 //Napisz program, który wyświetli największą liczbę ze zbioru czteroelementowego.
 void task7()
 {
+
 	int firstNumber, secondNumber, thirdNumber, fourthNumber;
 	std::cout << "Podaj liczbę\n";
 	std::cin >> firstNumber;
@@ -234,31 +236,52 @@ BMI = masa/wysokość^2
 void task8()
 {
 
-	float masa, wysokość;
+	float masa, wysokość, otylosc;
 	std::cout << "Podaj masę\n";
 	std::cin >> masa;
 	std::cout << "Podaj wzrost\n";
 	std::cin >> wysokość;
-	std::cout << "masa\wysokość ^ 2";
+
+	otylosc = masa / wysokość * wysokość;
+
+	if (otylosc < 16);
+			std::cout << "Masz wygłodzenie\n";
+	if (otylosc <= 16);
+			std::cout << "Masz wychudzenie\n";
+	if (otylosc <= 16 && otylosc <= 16.99);
+			std::cout << "Masz niedowagę\n";
+	if (otylosc <= 17 && otylosc <= 18.49);
+		std::cout << "Masz wagę prawidłową\n";
+	if (otylosc <= 18.5 && otylosc <= 24.99);
+		std::cout << "Masz nadwagę\n";
+	if (otylosc <= 24.5 && otylosc <= 29.9);
+		std::cout << "Masz I stopień otyłości\n";
+	if (otylosc <= 30.0 && otylosc <= 34.99);
+		std::cout << "Masz II stopień otyłości\n";
+	if (otylosc <= 35.0 && otylosc <= 39.99);
+		std::cout << "Masz otyłość skrajną\n";
+	if (otylosc <= 40);
+}
+// Napisz program, który poprosi użytkownika o podanie długości trzech odcinków i sprawdzi, czy można zbudować z nich trójkąt. Wyświetl odpowiedni komunikat.
+void task9()
+{ 
+	int pierwszybok, drugibok, trzecibok;
+		std::cout << "Podaj Pierwszybok\n";
+		std::cin >> pierwszybok;
+		std::cout << "Podaj	drugibok\n";
+		std::cin >> drugibok;
+		std::cout << "Podaj	trzecibok\n";
+		std::cin >> trzecibok;
+
+		if (trzecibok > pierwszybok && trzecibok > pierwszybok)
+			std::cout; 
+
+
+
+
+
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 int main()
 {
 	

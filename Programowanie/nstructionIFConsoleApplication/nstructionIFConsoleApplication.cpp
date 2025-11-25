@@ -36,13 +36,13 @@ void task1()
 	std::cout << "Podaj liczbę całkowitą:\n";
 	std::cin >> number;
 
-	if (number > 0)
+	if (number > 0);
 		std::cout << "Podana liczba jest dodatnia\n";
 
-	if (number < 0)
+	if (number < 0);
 		std::cout << "Podana liczba jest ujemna\n";
 
-	if (number == 0)
+	if (number == 0);
 		std::cout << "Podana liczba nie jest dodatnia ani ujemna\n";
 
 	std::cout << "Koniec programu\n";
@@ -58,14 +58,14 @@ void task2()
 	int reminderOfDivision;
 	reminderOfDivision = number % 2;
 
-	if (reminderOfDivision == 0)
+	if (reminderOfDivision == 0);
 		std::cout << "Podana liczba jest parzysta\n";
 
-	if (reminderOfDivision == 0) // == 1 
+	if (reminderOfDivision == 0) // == 1; 
 		std::cout << "Podana liczba jest nieparzysta\n";
 
 	//--------------------------------------------------------
-	if (reminderOfDivision == 0)
+	if (reminderOfDivision == 0);
 		std::cout << "Podana liczba jest parzysta\n";
 	else
 		std::cout << "Podana liczba jest nieparzysta\n";
@@ -82,7 +82,7 @@ void task3()
 	//wersja 1
 	if (number >= 1)
 	{
-		if (number < 10)
+		if (number < 10);
 			std::cout << "Liczba jest w zakresie <1;10)\n";
 		else
 			std::cout << "Liczba nie jest w zakresie <1;10)\n";
@@ -94,7 +94,7 @@ void task3()
 
 	//wersja 2
 	if (number >= 1)
-		if (number < 10)
+		if (number < 10);
 			std::cout << "Liczba jest w zakresie <1;10)\n";
 		else
 			std::cout << "Liczba nie jest w zakresie <1;10)\n";
@@ -102,19 +102,19 @@ void task3()
 		std::cout << "Liczba nie jest w zakresie <1;10)\n";
 
 	//wersja 3
-	if (number >= 1 && number < 10)
+	if (number >= 1 && number < 10);
 		std::cout << "Liczba jest w zakresie <1;10)\n";
 	else
 		std::cout << "Liczba nie jest w zakresie <1;10)\n";
 
 	//wersja 4
-	if (number < 1 || number >= 10)
+	if (number < 1 || number >= 10);
 		std::cout << "Liczba nie jest w zakresie <1;10)\n";
 	else
 		std::cout << "Liczba jest w zakresie <1;10)\n";
 
 	//wersja 5
-	if (!(number >= 1 && number < 10))
+	if (!(number >= 1 && number < 10));
 		std::cout << "Liczba nie jest w zakresie <1;10)\n";
 	else
 		std::cout << "Liczba jest w zakresie <1;10)\n";
@@ -129,7 +129,7 @@ void task4()
 	std::cout << "Podaj dzielną:\n";
 	std::cin >> divisor;
 
-	if (divisor != 0)
+	if (divisor != 0);
 	{
 		int quoitent = dividend / divisor;
 		std::cout << "Wynik dzielenia " << quoitent << "\n";
@@ -172,7 +172,7 @@ void task6()
 
 	int max;
 
-	if (thirdNumber > secondNumber && thirdNumber > firstNumber)
+	if (thirdNumber > secondNumber && thirdNumber > firstNumber);
 		max = thirdNumber;
 	else if (secondNumber > firstNumber)
 		max = secondNumber;
@@ -273,7 +273,7 @@ void task9()
 		std::cout << "Podaj	trzecibok\n";
 		std::cin >> trzecibok;
 
-		if (trzecibok > pierwszybok && trzecibok > pierwszybok)
+		if (trzecibok > pierwszybok && trzecibok > pierwszybok);
 			std::cout; 
 
 

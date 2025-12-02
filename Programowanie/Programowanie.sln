@@ -7,7 +7,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FirstConsoleApplication", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VariableConsoleApplication", "VariableConsoleApplication\VariableConsoleApplication.vcxproj", "{8197754E-FF37-440D-8D17-E01814BD71E2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nstructionIFConsoleApplication", "nstructionIFConsoleApplication\nstructionIFConsoleApplication.vcxproj", "{5D697E8D-F645-44E7-87EB-4156199558B6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InstructionIFConsoleApplication", "nstructionIFConsoleApplication\nstructionIFConsoleApplication.vcxproj", "{5D697E8D-F645-44E7-87EB-4156199558B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoopDoWhileConsoleApplication", "LoopDoWhileConsoleApplication\LoopDoWhileConsoleApplication.vcxproj", "{E264397F-9C64-44A5-9512-327FB0656CCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.1 Basics", "0.1 Basics", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.2 Variable", "0.2 Variable", "{C663A122-75AB-4021-B18C-FB51E0660456}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.3 Decision instructions", "0.3 Decision instructions", "{ABD86639-1BB8-4EA4-BBA9-6B4ECAD7DADC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,9 +49,21 @@ Global
 		{5D697E8D-F645-44E7-87EB-4156199558B6}.Release|x64.Build.0 = Release|x64
 		{5D697E8D-F645-44E7-87EB-4156199558B6}.Release|x86.ActiveCfg = Release|Win32
 		{5D697E8D-F645-44E7-87EB-4156199558B6}.Release|x86.Build.0 = Release|Win32
+		{E264397F-9C64-44A5-9512-327FB0656CCF}.Debug|x64.ActiveCfg = Debug|x64
+		{E264397F-9C64-44A5-9512-327FB0656CCF}.Debug|x64.Build.0 = Debug|x64
+		{E264397F-9C64-44A5-9512-327FB0656CCF}.Debug|x86.ActiveCfg = Debug|Win32
+		{E264397F-9C64-44A5-9512-327FB0656CCF}.Debug|x86.Build.0 = Debug|Win32
+		{E264397F-9C64-44A5-9512-327FB0656CCF}.Release|x64.ActiveCfg = Release|x64
+		{E264397F-9C64-44A5-9512-327FB0656CCF}.Release|x64.Build.0 = Release|x64
+		{E264397F-9C64-44A5-9512-327FB0656CCF}.Release|x86.ActiveCfg = Release|Win32
+		{E264397F-9C64-44A5-9512-327FB0656CCF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7BCBB73-CAC0-4C7B-A995-C957B1EBFA88} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8197754E-FF37-440D-8D17-E01814BD71E2} = {C663A122-75AB-4021-B18C-FB51E0660456}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC289324-15E6-4D1B-AE89-A523F5F57998}

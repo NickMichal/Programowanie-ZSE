@@ -92,7 +92,7 @@ void task2()
 			std::cout << "Podałeś za małą liczbe\n";
 	} while (number != randomNumber);
 
-	std::cout << "Gratulacje!!!\nZgadles liczbe\n";
+	std::cout << "Gratulacje!!!\n Zgadles liczbe\n";
 }
 
 
